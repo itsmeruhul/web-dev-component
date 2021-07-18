@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame</title>
+    <style>
+        .photo-frame{
+            height: 500px;
+            width: 400px;
+            border: 5px solid orange;
+            border-radius: 15px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+        }
+        .photo-frame .photo img{
+            width: 100%;
+        }
+        .photo-detailes{
+            position: absolute;
+            height: 500px;
+            width: 400px; 
+            top: 0;
+            display: none;
+        }
+        .photo-frame:hover .photo-detailes{
+            display: block;
+            background-color: rgba(218, 165, 32, .4);
+        }
+        .photo-frame:hover .photo-detailes h1{
+            color: wheat;
+            background-color: black;
+            text-align: center;
+        }
+        .photo-frame:hover .photo-detailes p{
+            color: rgb(243, 163, 13);
+           
+        }
+        .my-photo{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-frame:hover .photo img{
+            transform: scale(1.3);
+            transition: transform 1s;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>My photo </h1>
+    <section class="my-photo">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/cricket-bat.png" alt="">
+            </div>
+            <div class="photo-detailes">
+                <h1>Royal Bengol Taiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nostrum natus vero provident vitae suscipit quae ullam, reprehenderit, consequuntur laudantium dignissimos possimus soluta earum, nam modi reiciendis. Animi, veniam ipsam!
+                Ex amet ut laboriosam, iste earum in alias neque delectus deserunt. Minus sint officia nesciunt illum reprehenderit obcaecati necessitatibus quibusdam nisi itaque, deleniti debitis, odio expedita veritatis soluta? Assumenda, iure.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/cricket-bat.png" alt="">
+            </div>
+            <div class="photo-detailes">
+                <h1>Royal Bengol Taiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nostrum natus vero provident vitae suscipit quae ullam, reprehenderit, consequuntur laudantium dignissimos possimus soluta earum, nam modi reiciendis. Animi, veniam ipsam!
+                Ex amet ut laboriosam, iste earum in alias neque delectus deserunt. Minus sint officia nesciunt illum reprehenderit obcaecati necessitatibus quibusdam nisi itaque, deleniti debitis, odio expedita veritatis soluta? Assumenda, iure.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/cricket-bat.png" alt="">
+            </div>
+            <div class="photo-detailes">
+                <h1>Royal Bengol Taiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nostrum natus vero provident vitae suscipit quae ullam, reprehenderit, consequuntur laudantium dignissimos possimus soluta earum, nam modi reiciendis. Animi, veniam ipsam!
+                Ex amet ut laboriosam, iste earum in alias neque delectus deserunt. Minus sint officia nesciunt illum reprehenderit obcaecati necessitatibus quibusdam nisi itaque, deleniti debitis, odio expedita veritatis soluta? Assumenda, iure.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/cricket-bat.png" alt="">
+            </div>
+            <div class="photo-detailes">
+                <h1>Royal Bengol Taiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nostrum natus vero provident vitae suscipit quae ullam, reprehenderit, consequuntur laudantium dignissimos possimus soluta earum, nam modi reiciendis. Animi, veniam ipsam!
+                Ex amet ut laboriosam, iste earum in alias neque delectus deserunt. Minus sint officia nesciunt illum reprehenderit obcaecati necessitatibus quibusdam nisi itaque, deleniti debitis, odio expedita veritatis soluta? Assumenda, iure.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/cricket-bat.png" alt="">
+            </div>
+            <div class="photo-detailes">
+                <h1>Royal Bengol Taiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nostrum natus vero provident vitae suscipit quae ullam, reprehenderit, consequuntur laudantium dignissimos possimus soluta earum, nam modi reiciendis. Animi, veniam ipsam!
+                Ex amet ut laboriosam, iste earum in alias neque delectus deserunt. Minus sint officia nesciunt illum reprehenderit obcaecati necessitatibus quibusdam nisi itaque, deleniti debitis, odio expedita veritatis soluta? Assumenda, iure.</p>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
