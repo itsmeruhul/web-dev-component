@@ -1,0 +1,89 @@
+body{
+    background-color: #F3F1FF;
+}
+.brand-logo{
+    width: 35px;
+    margin-left: 210px;
+}
+.brand-profile{
+    width: 35px;
+    margin-right: 210px;
+}
+.player img{
+    width: 56px;
+}
+.top-player{
+    
+    background-color: rgb(244, 255, 251);
+    border-radius: 10px;
+
+}
+main{
+    max-width: 870px;
+    margin-top: 25px;
+}
+.player p{
+    font-weight: bold;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+  } 
+  .top-blog img{
+      width: 180px;
+
+  }
+  .top-blog{
+    background-color: rgb(244, 255, 251);
+    border-radius: 10px;
+  }
+  .top-pading{
+      padding-left: 30px;
+  }
+  h3{
+      color: blueviolet;
+      margin-top: 30px;
+  }
+  .course{
+      margin-bottom: 20px;
+  }
+  .card-1{
+      border-radius: 30px;
+      padding-left: 35px;
+      padding-top: 20px;
+  }
+  .card-2{
+    border-radius: 30px;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.card-3{
+    border-radius: 30px;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.course p{
+    font-size: small;
+    color: rgb(233, 33, 33);
+}
+.col{
+    margin-top: 20px;
+}
+.star img{
+    width: 10px;
+    
+}
+.star{
+    display: inline-block;
+}
+.time{
+    border: 2px solid olive;
+    border-radius: 10px;
+    background-color: palevioletred;
+    height: 20px;
+}
